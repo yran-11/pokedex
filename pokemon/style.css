@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 16px;
+    background-image: url(./assents/804330.png);
+    background-size: cover;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 350px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaaaa;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1 {
+    font-size: 50px;
+    color: #a0a0a0;
+}
+
+.info{
+    margin-top: 15px;
+}
+
+.N{
+    font-size: 15px;
+    color: #a0a0a0;
+}
+
+.card img {
+    height: 300px;
+    width: 350px;
+}
+
+.Water{
+    background-color: #4492c3;
+    color: #ffffff;
+    width: 250px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px){
+    body{
+        display: flex;
+        flex-flow: column wrap;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 16px;
+        background-image: url(./assents/804330.png)
+    }
+}
